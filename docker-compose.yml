@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  task-queue:
+    image: task_queue:latest
+    container_name: task-queue3
+    restart: "on-failure"
