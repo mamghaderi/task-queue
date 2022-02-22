@@ -1,7 +1,7 @@
 ## Description
 
-In this code, I used mqtt as inbound and outbound of ortools library. The server subscribes on
-settings.MQTT_REQUEST_TOPIC, to receive messages from client. Message data protocol is list of lat and lons as follow:
+
+In this code, I used mqtt as inbound and outbound of the ortools library. The server subscribes to settings.MQTT_REQUEST_TOPIC, to receive messages from the client. Message data protocol is list of lat and lons as follow:
 
 ```python
 data = [[2, 3], [4, 6], [7, 8]]
